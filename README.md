@@ -1,10 +1,10 @@
 # physarium-dataset
 
-Code for creating the [Physarium Latent Walk Dataset](https://www.kaggle.com/).
+Code for creating the [Physarium Latent Walk Dataset](https://www.kaggle.com/pietbroemmel/physarum-latent-walk).
 
 ## Recreation
 
-Install physarum util (TODO:link). Then I created 1000 images with random settings and logged them in random.log with physarum-util like this:
+Install [physarum util](https://github.com/piebro/physarum-util). Then I created 1000 images with random settings and logged them in random.log with physarum-util like this:
 
 ```bash
 cd physarum-util
@@ -18,7 +18,7 @@ go run main.go -path <name>/<name>_%d.png --configLogPath "random.log" --configs
 zip <name> <name>/*
 ```
 
-Here are all the commands for generating the images in the [Physarium Latent Walk Dataset](https://www.kaggle.com/):
+Here are all the commands for generating the images:
 
 ```bash
 # cells
